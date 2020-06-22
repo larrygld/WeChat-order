@@ -1,0 +1,69 @@
+  <view wx:if="{{listLength > 0}}">
+    <view  class="order-box" wx:for="{{orderlist}}" bindtap="toOrderDetail" >
+
+
+ <view class = "addre1 addre2"  style="display:{{display2}} ">
+  <view class = "left">
+  <view class="left_top">
+  <image src="/image/map2.png"/>
+    {{item.name}}　{{item.tel}}　　　
+    </view>
+    <view class = "left_bottom">
+      地址：{{item.addre}}
+    </view>
+  </view>
+</view>
+<view class = "line"><image src = "/image/line.jpg" mode="aspectFit" repeat = "repeat"/></view>
+        
+        
+        <view wx:for="{{item.catlist}}" wx:key="">        
+           <view class="flex-display padding-15">
+            <view class="flex-width-1 order-font" style='margin-left:50rpx;'>
+              <view>{{item.name}}</view>
+            </view>
+            <view class="order-font">x{{item.quantity}}</view>
+          </view>
+        </view>
+        <view class="order-detail">
+            <view class="order-left">
+                <text class="order-date">用餐人数：</text>
+            </view>
+            <view class="order-right">
+                <text class="order-price">{{item.peoples}}位</text>              
+            </view>
+        </view>
+        <view class="order-detail">
+            <view class="order-left">
+                <text class="order-date">用餐备注：</text>
+            </view>
+            <view class="order-right">
+                <text class="order-price">{{item.remarks}}</text>              
+            </view>
+        </view>
+        <view class="order-detail">
+            <view class="order-left">
+                <text class="order-date">{{item.order_id}}</text>
+            </view>
+            <view class="order-right">
+                <text class="order-price color-red">￥{{item.totalPrice}}</text>
+            </view>
+        </view>
+        <view>
+          <text class="color-green order_border">已支付</text>
+        </view>
+        <view wx:if="{{item.state == 0}}" class="order-detail">
+            <view class="order-left">
+                <text class="order-date red">{{item.time_expire}}</text>
+            </view>
+            <view class="order-right red">
+                <text class="order-state">到期时间</text>
+            </view>
+        </view>
+    </view>
+    </view>
+
+    <view wx:else class="no-order-box padding-top-30">
+        <view class="cart-off"><image src="../../image/cart-off.png"></image></view>
+        <view class="no-order">购物车，空空如也:-)</view>
+        <navigator open-type="switchTab" url="../home/home" hover-class="navigator-hover" class="continueBook"> 去首页逛逛 </navigator>
+    </view>

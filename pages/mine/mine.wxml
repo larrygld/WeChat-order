@@ -1,0 +1,52 @@
+  <!-- <navigator url="../../pages/login/login"> -->
+  <view class="page style15" >
+    <view class="login"  bindtap="loadingTap" >
+      <image class="login_pic" src="{{userInfo.avatarUrl}}" />
+      <navigator class="login_content color_white"  url="../../pages/message/message" >{{username==null ?'登录/注册':''}} {{username}}
+ </navigator> </view>
+  <!-- </navigator> -->
+  <view class="belongings">
+    <navigator url='../money/money'class='belongings_box' bindtap="loadingTap">
+      <view class='belongings_box_little'>
+         <image class="belongings_box_img" src='../../image/qianbao.png'></image>
+       钱包
+      </view></navigator>
+ 
+    <navigator url="../youhui/youhui" class='belongings_box' bindtap="loadingTap">
+      <view class='belongings_box_little'>
+        <image class="belongings_box_img" src='../../image/hongbao.png'></image>
+        优惠
+      </view></navigator>
+   
+    <navigator url="../jinbi/jinbi" class='belongings_box' bindtap="loadingTap">
+      <view class='belongings_box_little'>
+        <image class="belongings_box_img" src='../../image/jinbi.png'></image>
+        金币
+      </view></navigator> 
+  </view>
+
+
+  <navigator url='../chooseAddre/chooseAddre' bindtap="loadingTap">
+  <view class='list'>
+    <image style="float:left;width:50rpx;height:50rpx;margin-top:20rpx;margin-right:15rpx;" src='../../image/map2.png'></image>
+    我的地址
+  <image style="float:right;width:50rpx;height:50rpx;margin-top:20rpx;margin-right:20rpx;" src='../../image/箭头.png'></image>
+  </view></navigator>
+  <navigator url="../jinbi/jinbi" bindtap="loadingTap">
+  <view class='list'>
+  <image style="float:left;width:50rpx;height:50rpx;margin-top:20rpx;margin-right:15rpx;" src='../../image/shangcheng.png'></image>
+  金币商城
+  <image style="float:right;width:50rpx;height:50rpx;margin-top:20rpx;margin-right:20rpx;" src='../../image/箭头.png'></image>
+  </view></navigator>
+  <navigator url="../kefu/kefu" bindtap="loadingTap">
+  <view class='list'>
+  <image style="float:left;width:50rpx;height:50rpx;margin-top:20rpx;margin-right:15rpx;" src='../../image/kefu.png'></image>
+  关于我们
+  <image style="float:right;width:50rpx;height:50rpx;margin-top:20rpx;margin-right:20rpx;" src='../../image/箭头.png'></image>
+  </view></navigator>
+  <view class='list' bindtap="loadingTap">
+  <image style="float:left;width:50rpx;height:50rpx;margin-top:20rpx;margin-right:15rpx;" src='../../image/zuanshi.png'></image>
+  蚂蚁钻石会员特权
+  <image style="float:right;width:50rpx;height:50rpx;margin-top:20rpx;margin-right:20rpx;" src='../../image/箭头.png'></image>
+  </view>
+</view>

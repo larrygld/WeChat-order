@@ -1,0 +1,276 @@
+page{
+  background-color: #F5F5F5;
+}
+.page-title{
+    width: 100%;
+    background-size: 16rpx auto,750rpx auto;
+    background-color: #fff;
+    margin: 20rpx 0;
+    text-align:center;
+    line-height:15vh;
+    font-size:50rpx;
+    font-weight:700;
+}
+
+.order-box{
+    display:-webkit-flex;
+    display:flex;
+    flex-direction: column;
+    border-top:1px solid #E1E1E1;
+    border-bottom:1px solid #E1E1E1;
+    margin:30rpx 0;
+    padding: 20rpx 30rpx 20rpx 40rpx;
+    background-color: #fff;
+}
+
+.order-box .order-number{
+    font-size:40rpx;
+    padding:10rpx;
+}
+
+.order-box .order-title{
+    font-size:14px;
+    padding:10rpx;
+    margin:5px 0;
+}
+
+.order-box .order-detail{
+    display:flex;
+    justify-content: space-between;
+    font-size:30rpx;
+    margin:5rpx 0;
+    margin-left: 50rpx;
+    padding:10rpx;
+    border-bottom: 1rpx solid #ccc;
+}
+
+.order-font{
+  font-size:30rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+
+.order_border{
+  width: 140rpx;
+  float: right;
+  margin: 20rpx 0;
+  padding:10rpx;
+  font-size: 25rpx;
+  text-align: center;
+  border:1rpx solid green;
+}
+.order-box .order-detail .order-right .order-price{
+    padding-right:15rpx;
+}
+
+navigator{width:320px;height:50px;text-align:center;line-height:50px;margin:0 auto;display:block;border-radius:4px;}
+.continueBook{background:#1AAD19;color:#fff;border:1px solid #fff;margin-top:20px;}
+
+.no-order-box{
+    text-align:center;
+}
+.no-order-box .cart-off image{
+    width:50px;
+    height:50px;
+    margin:10rpx;
+}
+display-prefex{
+   display:flex;
+}
+
+.contain{
+  background-color: #f5f9f8;
+  font-family: 微软雅黑；
+}
+.margin-top-15{
+  margin-top:15rpx; 
+}
+.margin-left-15{
+  margin-left: 15rpx;
+}
+.margin-right-15{
+  margin-right: 15rpx;
+}
+.margin-bottom{
+  margin-bottom: 15rpx;
+}
+.padding-20{
+  padding:20rpx;
+}
+.padding-15{
+  padding:15rpx;
+}
+.padding-5{
+  padding: 8rpx;
+  border-radius: 10rpx;
+}
+.padding-top-15{
+  padding-top: 15rpx;
+}
+.padding-top-30{
+  padding-top: 30rpx;
+}
+.padding-left-15{
+  padding-left: 15rpx;
+}
+.padding-left-20{
+  padding-left: 20rpx;
+}
+.padding-right-15{
+  padding-right: 15rpx;
+}
+.padding-bottom-15{
+  padding-bottom:15rpx;
+}
+.font-size-25{
+  font-size: 25rpx;
+}
+.font-size-30{
+  font-size: 30rpx;
+}
+.background-color-white{
+  background-color: white;
+}
+.border-bottom{
+  border-bottom: 1rpx solid #f4f4f4;
+}
+.flex-display{
+  display: -webkit-flex;
+}
+.flex-display-colum{
+  display: -webkit-flex;
+  flex-direction: column;
+}
+.flex-width-1{
+  flex: 1;
+}
+.flex-width-2{
+  flex: 2;
+}
+.flex-width-5{
+  flex: 5;
+}
+.border-left{
+  border-left:1rpx solid #ccc;
+}
+.color-red{
+  color: red;
+}
+.titleImage{
+  width: 80rpx;
+  height: 80rpx;
+}
+.background-tab{
+  background-color: #ccc;
+  color: white;
+}
+.color-red{
+  color: red;
+}
+.color-green{
+  color: green;
+}
+.text-center{
+  text-align: center;
+}
+.message-image{
+  width: 50rpx;
+  height: 50rpx;
+}
+.color-green{
+  color: green;
+}
+.add-image{
+  position: fixed;
+  bottom: 100rpx;
+  right: 100rpx;
+}
+.add-image image{
+  width: 100rpx;
+  height: 100rpx;
+}
+page {  
+  min-height: 100%;  
+  background-color:#f6f6f6;
+  font-family: "微软雅黑";
+  font-size: 30rpx;
+  color:#353535;
+  width:100%;
+} 
+.section{
+	background-color: #fff;
+}
+.item{
+	display: flex;
+	justify-content: space-between;
+	margin-left:30rpx;
+	padding:5rpx 30rpx 5rpx 0;
+	line-height:90rpx;
+	border-bottom:1rpx solid #e0e0e0;
+}
+.addre1{
+	margin-left:30rpx;
+    display: flex;
+    justify-content: space-between;
+    padding-top:30rpx;
+	line-height:100rpx;
+}
+.addre2{
+   line-height:60rpx;
+   font-size:27rpx;
+}
+.addre2 .left{
+	display: flex;
+	flex-direction: column;
+	width:90%;
+}
+.addre2 .left .area{
+	float:right;
+}
+.addre2 .left_bottom{
+	padding-left:40rpx;
+	color:#888;
+}
+.left_top image{
+	padding-top:10rpx;
+	margin-right:10rpx;
+}
+.more{
+  width:25rpx;
+  float:right;
+  margin-right:20rpx;
+  padding-top:40rpx;
+}
+ image{
+	width:30px;
+  height: 30px;
+}
+.line image{
+	width:100%;
+	height:20rpx;
+}
+.red{
+	color:#e64340;
+}
+.gray{
+	color:#939393;
+}
+.right{
+	display:flex;
+}
+textarea{
+	border: 1rpx solid #e0e0e0;
+	border-radius: 5rpx;
+    width:96%;
+}
+.mark{
+	background-color: #fff;
+	padding:15rpx 0 15rpx 42rpx;
+	line-height:80rpx;
+}
+.submit{
+  background-color: #FFC800;
+  color:#fff;
+  position: absolute;
+  bottom: 0;
+  width:100%;
+}

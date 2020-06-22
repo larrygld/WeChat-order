@@ -1,0 +1,22 @@
+<view class="logo_box">
+ <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+    </block>
+  </view>
+</view>
+<form bindsubmit="reg">
+  <view class='username'>
+  <input type="text" name="username" placeholder-style="color: #ccc" placeholder="你好>_<{{userInfo.nickName}}" bindinput="userNameInput"/>
+  </view>
+  <view class='username' style='margin-top:40rpx;'>
+    <input password name="password" placeholder-style="color: #ccc" placeholder="密码" bindinput="passWdInput"/>
+  </view>
+<view class='login-fail'>{{infoMess}}</view>
+  <view class="btn">
+    <button bindtap="loginBtnClick" style='margin-bottom:20rpx;' type="primary" form-type="submit">登录</button>
+    <navigator url="../kefu/kefu" bindtap="loadingTap" >关于我们</navigator>
+  </view>
+  
+</form>

@@ -1,0 +1,52 @@
+.logo_box{
+  height: 120rpx;
+  margin: 130rpx auto;
+}
+.logo{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  background-color: #ccc;
+}
+.username{
+  width: 70%;
+  margin-top: 60rpx;
+  margin-left:auto;
+  margin-right:auto;
+  border:1rpx solid #ADD8E6;
+  padding: 20rpx;
+  border-radius: 20rpx;
+}
+.login-fail{
+  text-align:center;
+  font-size:30rpx;
+  height:30rpx;
+  color: red;
+  margin-top:20rpx;
+}
+.btn{
+  width: 70%;
+  margin: 30rpx auto;
+  font-size: 35rpx;
+  color: #ccc;
+  text-align: center;
+}
+.btn:hover{
+  color: #FFA07A;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
